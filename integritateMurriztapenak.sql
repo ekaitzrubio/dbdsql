@@ -1,5 +1,3 @@
---gutxienez 2 gehienez 8
-
 --1. Inplikazio motako murriztapena (“x bada ---> y”) — Taula bakarrekoa
 --Deskribapena: Erreserba bat konfirmatuta dagoen bakoitzean, ezinbestekoa da pista bat esleituta egotea
 ALTER TABLE ERRESERBA 
@@ -25,6 +23,6 @@ ADD CONSTRAINT chk_erreserba_orduak
 CHECK (Amaiera_ordua > Hasiera_ordua);
 
 --5. zenbakirako: Balio bakarreko murriztapena (UNIQUE) — Taula bakarrekoa
---Deskribapena / Descripción: Ziurtatzea PERTSONA taulan posta elektronikoak (mail) ez errepikatzea; hau da, bi pertsonek ezin dute email bera erregistratu klubaren datu-basean.
+--Deskribapena: Ziurtatzea PERTSONA taulan posta elektronikoak (mail) ez errepikatzea; hau da, bi pertsonek ezin dute email bera erregistratu klubaren datu-basean.
 ALTER TABLE PERTSONA 
 ADD CONSTRAINT uk_pertsona_mail UNIQUE (mail);
