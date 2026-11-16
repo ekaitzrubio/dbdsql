@@ -1,0 +1,1 @@
+-- gutxienez 4 eta gehienez 6
