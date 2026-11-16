@@ -84,7 +84,8 @@ INSERT INTO PROGRAMATU (saioID, harrID, NAN, zbkia, Hasiera_ordua, Iraupena, Dat
 INSERT INTO ERRESERBA (id_erreserba, Data, Hasiera_ordua, Amaiera_ordua, Egoera, Sortze_data, Pertsona_NAN, Pista_Zbkia) VALUES
 (1, TO_DATE('2026-06-05', 'YYYY-MM-DD'), TO_DATE('2026-06-05 17:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2026-06-05 18:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Konfirmatuta', TO_DATE('2026-06-01', 'YYYY-MM-DD'), '23456789B', 1);
 
-INSERT INTO ERRESERBA (id_erreserba, Data, Hasiera_ordua, Amaiera_ordua, Egoera, Sortze_data, Pertsona_NAN, Pista_Zbkia) VALUES
+INSERT INTO ERRESERBA (id_erreserba, Data, Hasiera_ordua, Amaiera_ordua, Egoera, Sortze_data, Pertsona_NAN, Pista_Zbkia) VALUES    Egoera VARCHAR2(50),
+
 (2, TO_DATE('2026-06-06', 'YYYY-MM-DD'), TO_DATE('2026-06-06 19:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2026-06-06 20:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Konfirmatuta', TO_DATE('2026-06-02', 'YYYY-MM-DD'), '34567890C', 2);
 
 
