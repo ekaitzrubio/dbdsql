@@ -103,3 +103,11 @@ INSERT INTO EGON (Bazkide_NAN, Talde_ID) VALUES ('34567890C', 2);
 
 -- SORTU
 INSERT INTO SORTU (NAN, Talde_ID) VALUES ('45678901D', 1);
+
+
+-- PERTSONA (Adingabea)
+INSERT INTO PERTSONA (NAN, izena, abizenak, jaiotze_data, mail, helbidea) VALUES
+('78901234E', 'Malen', 'Agirre Etxeberria', TO_DATE('2010-06-15', 'YYYY-MM-DD'), 'malen.agirre@email.eus', 'Kale Nagusia 12, Donostia');
+
+-- BAZKIDEA (Adingabea bada)
+INSERT INTO BAZKIDEA (NAN) VALUES ('78901234E');
